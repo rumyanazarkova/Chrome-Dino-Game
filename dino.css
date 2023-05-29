@@ -1,0 +1,40 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+
+
+#board{
+    
+    background-color: lightgray;
+    border-bottom:1px solid black;   
+}
+
+
+
+#reset{
+    background: url(/img/reset.png); 
+    width:74px;
+    height:66px;
+    border: 0px;
+    margin: 10px auto; /* Add margin and set auto for horizontal centering */
+    display: block; /* Ensure it takes up the full width available */
+}
+
+#gameOverContainer{
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 250px;
+    width: 1500px;  
+    z-index: 100; /* Ensure the game over container appears above other elements */
+}
+
+#gameOverImage{
+    width:386px;
+    height:40px;    
+}
+
